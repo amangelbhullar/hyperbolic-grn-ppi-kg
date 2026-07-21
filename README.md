@@ -20,38 +20,40 @@ This repository provides:
 The knowledge graphs are derived from publicly available data sources (see **Data Sources** below). The specific construction, filtering, integration, and lineage annotations are original to this work; the underlying raw data is not.
 
 ## Repository Structure
+````text
 hyperbolic-grn-ppi-kg/
-├── data/kg/
-│   ├── pancreas/
-│   │   ├── gene_nodes.csv
-│   │   ├── edges_regulatory.csv      # CollecTRI-derived, HVG-filtered
-│   │   ├── edges_ppi.csv             # STRING-derived, HVG-filtered
-│   │   └── pseudobulk_celltype_gene.csv
-│   ├── bone_marrow/
-│   │   ├── gene_nodes.csv
-│   │   ├── edges_regulatory.csv
-│   │   ├── edges_ppi.csv
-│   │   ├── pseudobulk_celltype_gene.csv
-│   │   └── lineage_tree.csv          # manually encoded ground truth
-│   └── thymus/
-│       ├── gene_nodes.csv
-│       ├── edges_regulatory.csv
-│       ├── edges_ppi.csv
-│       ├── pseudobulk_celltype_gene.csv
-│       └── lineage_tree.csv
-├── src/
-│   ├── curvature_model.py            # multi-relational Poincaré-ball model, fan-out, Gromov delta
-│   └── hierarchy_recovery.py         # hyperbolic vs. Euclidean lineage recovery sweep
-├── results/
-│   ├── pancreas_curvature_multiseed.csv
-│   ├── bonemarrow_curvature_multiseed.csv
-│   ├── thymus_curvature_multiseed.csv
-│   ├── hierarchy_recovery_sweep_bonemarrow.csv
-│   ├── hierarchy_recovery_sweep_thymus.csv
-│   └── figures/
-├── requirements.txt
-├── LICENSE
-└── README.md
+|-- data/kg/
+|   |-- pancreas/
+|   |   |-- gene_nodes.csv
+|   |   |-- edges_regulatory.csv       (CollecTRI-derived, HVG-filtered)
+|   |   |-- edges_ppi.csv              (STRING-derived, HVG-filtered)
+|   |   `-- pseudobulk_celltype_gene.csv
+|   |-- bone_marrow/
+|   |   |-- gene_nodes.csv
+|   |   |-- edges_regulatory.csv
+|   |   |-- edges_ppi.csv
+|   |   |-- pseudobulk_celltype_gene.csv
+|   |   `-- lineage_tree.csv           (manually encoded ground truth)
+|   `-- thymus/
+|       |-- gene_nodes.csv
+|       |-- edges_regulatory.csv
+|       |-- edges_ppi.csv
+|       |-- pseudobulk_celltype_gene.csv
+|       `-- lineage_tree.csv
+|-- src/
+|   |-- curvature_model.py             (multi-relational Poincare-ball model, fan-out, Gromov delta)
+|   `-- hierarchy_recovery.py          (hyperbolic vs Euclidean lineage recovery sweep)
+|-- results/
+|   |-- pancreas_curvature_multiseed.csv
+|   |-- bonemarrow_curvature_multiseed.csv
+|   |-- thymus_curvature_multiseed.csv
+|   |-- hierarchy_recovery_sweep_bonemarrow.csv
+|   |-- hierarchy_recovery_sweep_thymus.csv
+|   `-- figures/
+|-- requirements.txt
+|-- LICENSE
+`-- README.md
+```"""
 
 ## Data Sources
 
