@@ -90,10 +90,17 @@ Paired Wilcoxon *p* = 0.002 for `regulates` vs. `interacts_with` in all three ti
 
 ### Hierarchy recovery (Spearman ρ, embedding distance-from-origin vs. true lineage depth)
 
+
+
+
 | Dim. | Dataset | Hyperbolic ρ | Euclidean ρ |
 |---|---|---|---|
 | 4 | Bone Marrow | 0.660 ± 0.068 | 0.574 ± 0.077 |
 | 4 | Thymus | 0.325 ± 0.060 | 0.123 ± 0.062 |
+| 8 | Bone Marrow | 0.642 ± 0.073 | 0.611 ± 0.059 |
+| 8 | Thymus | 0.545 ± 0.177 | 0.176 ± 0.160 |
+| 16 | Bone Marrow | 0.626 ± 0.014 | 0.641 ± 0.029 |
+| 16 | Thymus | 0.279 ± 0.184 | 0.174 ± 0.134 |
 | 32 | Bone Marrow | 0.400 ± 0.023 | 0.614 ± 0.027 |
 | 32 | Thymus | 0.355 ± 0.130 | 0.598 ± 0.034 |
 
