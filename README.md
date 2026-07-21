@@ -20,7 +20,7 @@ This repository provides:
 The knowledge graphs are derived from publicly available data sources (see **Data Sources** below). The specific construction, filtering, integration, and lineage annotations are original to this work; the underlying raw data is not.
 
 ## Repository Structure
-````text
+
 hyperbolic-grn-ppi-kg/
 |-- data/kg/
 |   |-- pancreas/
@@ -53,7 +53,7 @@ hyperbolic-grn-ppi-kg/
 |-- requirements.txt
 |-- LICENSE
 `-- README.md
-```"""
+
 
 ## Data Sources
 
@@ -116,4 +116,4 @@ MIT License (see `LICENSE`). Note: constructed knowledge graph files are derived
 
 amangelbhullar@gmail.com
 
-Amangel (Daisy) Bhullar — School of Computer Science, University of Windsor
+Amangel Bhullar — School of Computer Science, University of Windsor
