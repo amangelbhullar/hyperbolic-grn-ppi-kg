@@ -2,7 +2,7 @@
 
 Code and constructed knowledge graphs accompanying:
 
-**"Structural Selectivity and Learned Hyperbolic Geometry in Pancreas, Bone Marrow, and Thymus Gene Regulatory Knowledge Graphs"**
+**"Structural Selectivity and Learned Hyperbolic Geometry in Pancreas, Bone Marrow, and Thymus Gene Regulatory and Protein Interaction Knowledge Graphs"**
 Amangel Bhullar, Ziad Kobti — ALIFE 2026 Late Breaking Abstract
 
 ## Overview
