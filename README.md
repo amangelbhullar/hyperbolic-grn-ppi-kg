@@ -21,6 +21,7 @@ The knowledge graphs are derived from publicly available data sources (see **Dat
 
 ## Repository Structure
 
+```text
 hyperbolic-grn-ppi-kg/
 |-- data/kg/
 |   |-- pancreas/
@@ -53,6 +54,7 @@ hyperbolic-grn-ppi-kg/
 |-- requirements.txt
 |-- LICENSE
 `-- README.md
+```
 
 
 ## Data Sources
