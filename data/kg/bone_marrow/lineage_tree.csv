@@ -1,0 +1,26 @@
+cell_type,depth,parent
+hematopoietic stem cell,0,
+hematopoietic precursor cell,1,hematopoietic stem cell
+common myeloid progenitor,2,hematopoietic precursor cell
+erythroid progenitor cell,3,common myeloid progenitor
+granulocyte,3,common myeloid progenitor
+monocyte,3,common myeloid progenitor
+erythrocyte,4,erythroid progenitor cell
+neutrophil,4,granulocyte
+basophil,4,granulocyte
+classical monocyte,4,monocyte
+intermediate monocyte,4,monocyte
+non-classical monocyte,4,monocyte
+macrophage,4,monocyte
+myeloid dendritic cell,4,monocyte
+B cell,3,hematopoietic precursor cell
+T cell,3,hematopoietic precursor cell
+"CD4-positive, alpha-beta T cell",4,T cell
+"CD8-positive, alpha-beta T cell",4,T cell
+regulatory T cell,4,"CD4-positive, alpha-beta T cell"
+natural killer cell,3,hematopoietic precursor cell
+mature NK T cell,4,natural killer cell
+plasmacytoid dendritic cell,3,hematopoietic precursor cell
+plasma cell,4,B cell
+fibroblast,-1,
+endothelial cell,-1,

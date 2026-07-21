@@ -1,0 +1,31 @@
+cell_type,depth,parent
+hematopoietic precursor cell,0,
+thymocyte,1,hematopoietic precursor cell
+"CD4-positive, alpha-beta thymocyte",2,thymocyte
+"CD8-positive, alpha-beta thymocyte",2,thymocyte
+"naive thymus-derived CD4-positive, alpha-beta T cell",3,"CD4-positive, alpha-beta thymocyte"
+"naive thymus-derived CD8-positive, alpha-beta T cell",3,"CD8-positive, alpha-beta thymocyte"
+"CD4-positive, alpha-beta T cell",4,"naive thymus-derived CD4-positive, alpha-beta T cell"
+"CD8-positive, alpha-beta T cell",4,"naive thymus-derived CD8-positive, alpha-beta T cell"
+natural killer cell,4,hematopoietic precursor cell
+B cell,3,hematopoietic precursor cell
+plasma cell,4,B cell
+macrophage,3,hematopoietic precursor cell
+monocyte,2,hematopoietic precursor cell
+neutrophil,3,hematopoietic precursor cell
+erythrocyte,2,hematopoietic precursor cell
+mast cell,2,hematopoietic precursor cell
+thymic fibroblast type 1,-1,
+thymic fibroblast type 2,-1,
+fibroblast,-1,
+capillary endothelial cell,-1,
+vein endothelial cell,-1,
+endothelial cell of artery,-1,
+endothelial cell of lymphatic vessel,-1,
+smooth muscle cell,-1,
+vascular associated smooth muscle cell,-1,
+fast muscle cell,-1,
+mesothelial cell,-1,
+neuro-medullary thymic epithelial cell,-1,
+myo-medullary thymic epithelial cell,-1,
+medullary thymic epithelial cell,-1,
