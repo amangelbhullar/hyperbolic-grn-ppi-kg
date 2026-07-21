@@ -3,7 +3,7 @@
 Code and constructed knowledge graphs accompanying:
 
 **"Structural Selectivity and Learned Hyperbolic Geometry in Pancreas, Bone Marrow, and Thymus Gene Regulatory Knowledge Graphs"**
-Amangel (Daisy) Bhullar, Ziad Kobti — ALIFE 2026 Late Breaking Abstract
+Amangel Bhullar, Ziad Kobti — ALIFE 2026 Late Breaking Abstract
 
 ## Overview
 
@@ -111,5 +111,7 @@ Full dimension sweep ({4, 8, 16, 32}) available in `results/hierarchy_recovery_s
 MIT License (see `LICENSE`). Note: constructed knowledge graph files are derived from CollecTRI and STRING data, which have their own licensing terms.
 
 ## Contact
+
+amangelbhullar@gmail.com
 
 Amangel (Daisy) Bhullar — School of Computer Science, University of Windsor
